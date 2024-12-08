@@ -1,3 +1,8 @@
+This is a modified version of the Swan2000 kernel, specifically one I've changed to include stronger overclocks for a V20/MSM8996 device which has had the V20 thermal pad/copper shim mod done to it.
+It increases the big core maximum frequency to 2.49GHz and the little core frequency to 1.96GHz.
+
+Your milage may vary, this change works on MY V20, but may or may not work on your V20.
+
 # LGE MSM8996 4.4 source - Swan2000-LOS20 custom branch.
 
 This branch contains the `Swan2000` version of LGE MSM8996's 4.4 kernel source updated to be on par with the default `Lineage-20` stable branch, but focused on better performance and efficiency over stable through a set of optimizations and voltage tweaks that aren't allowed at stable kernels aimed for official LOS support and such.
