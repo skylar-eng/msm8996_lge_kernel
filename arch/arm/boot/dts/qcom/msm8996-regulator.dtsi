@@ -1040,7 +1040,7 @@
 					/* Speed bin 3 */
 				       <0 0 0 0 (-50000) 0 0 0 0 0 0 0 0 0 0 0>;
 
-				qcom,cpr-closed-loop-voltage-adjustment =CONFIG_MSM8996
+				qcom,cpr-closed-loop-voltage-adjustment =
 					/* Speed bin 0 */
 #ifdef CONFIG_MSM8996_CPU_OVERCLOCK
 #ifdef CONFIG_SWAN2K_UNDERVOLTS_UNSAFE
